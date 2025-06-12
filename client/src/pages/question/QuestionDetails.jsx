@@ -18,7 +18,7 @@ const QuestionDetails = () => {
 
   const {id} = useParams();
   const user = useSelector((state) => state.currentUserReducer);
-  const url = "http://localhost:5173";
+  const url = "https://arpan-codequest.netlify.app/";
   const navigate = useNavigate();
   const location = useLocation();
   const dispatch = useDispatch();
